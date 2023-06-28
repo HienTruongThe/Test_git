@@ -1,0 +1,202 @@
+body {
+    color: #333;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    color: #fff;
+    background-color: #222;
+}
+
+#logo,
+#search,
+#cart {
+    height: 60px;
+}
+
+#search input,
+#search button {
+    margin-top: 12px;
+}
+
+#search input {
+    width: 275px;
+    height: 30px;
+    border: none;
+    font-size: 13px;
+    line-height: 30px;
+    font-style: italic;
+    border-radius: 4px 0 0 4px;
+}
+
+#search button {
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 12px;
+    line-height: 30px;
+    border-radius: 0 4px 4px 0;
+    background-color: #eb1f27;
+}
+
+#main {
+    padding-bottom: 30px;
+    background: #e7ecf4;
+}
+
+#cart {
+    text-align: right;
+    padding-top: 14px;
+}
+
+#cart a,
+#cart span {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#cart span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #EB1F27;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+#menu ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: #eb1f27;
+}
+
+.menu-item {
+    float: left;
+    height: 40px;
+    padding: 0 16px;
+    list-style: none;
+    line-height: 40px;
+    border-right: 1px solid #C60A11;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    background-color: #C60A11;
+}
+
+.menu-item a {
+    color: #fff;
+}
+
+.banner-item {
+    margin-bottom: 10px;
+}
+
+.products h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-list {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.product-item {
+    padding: 5px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 130px;
+    height: 160px;
+}
+
+.product-item h4 a {
+    padding: 6px;
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.product-item p {
+    text-transform: capitalize;
+}
+
+.product-item span {
+    color: #eb1f27;
+    font-weight: bold;
+}
+
+.product-inner {
+    padding: 6px;
+    background: #fff;
+}
+
+#logo-b,
+#address-b,
+#service-b,
+#hotline-b {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-b p {
+    text-align: justify;
+}
+
+#address-b h3,
+#service-b h3,
+#hotline-b h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #333;
+}
+
+#footer-b {
+    color: #a1b1bc;
+    background: #1d1e24;
+}
+
+#footer-b p {
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #cart {
+        text-align: left;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .menu-item {
+        float: none;
+        border: none;
+        border-bottom: 1px solid #C60A11;
+    }
+
+    #logo h1 button {
+        float: right;
+        margin-top: 10px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: block;
+    }
+}
